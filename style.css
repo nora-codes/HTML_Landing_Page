@@ -1,0 +1,80 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  color: #083D77;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+
+p {
+  color: black;
+  font-family: 'Barlow', sans-serif;
+  font-weight: thin;
+}
+
+.banner {
+	background-image: url(images/Nora.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.banner h1 {
+	color: #6D6875;
+	font-size: 24px;
+}
+
+.banner p {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.button-blue {
+	background-color: #8f384d;
+	color: white;
+	padding: 16px 48px; 
+	border-radius: 10px;
+  	font-weight: bold;
+  	text-decoration: none;
+  	transition: .3s;
+}
+
+
+.button-blue:hover {
+  	background-color: #FFCDB2;
+  	font-size: 20px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card-white {
+	background: 0 0 16px rgba(110,110,110);
+	box-shadow: 0 0 16px rgba(0,0,0,0.4);
+	border-radius: 6px
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 5px;
+}
