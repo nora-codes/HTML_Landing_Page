@@ -17,7 +17,7 @@ p {
 }
 
 .banner {
-	background-image: img src="images/frog.jpg";
+	background-image: url(images/Nora.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 150px 0;
